@@ -16,8 +16,11 @@
     body {
       text-align: center;
       font-family: Arial, sans-serif;
-      background-color:pink;
-      margin: 20px;
+      background-color:bisque;
+      
+    
+      
+      
     }
     
      h1 {
@@ -33,7 +36,7 @@
      
     h2 { 
         text-align: center;
-        animation: blink 1s infinite;
+        
     }
     @keyframes blink {
       0% { opacity: 1; }
@@ -84,15 +87,32 @@
     }
 
     #resultado {
+    
       text-align: center;
-      font-size: 20px;
+      width: 350px ;
+      font-size:20px;
       font-weight: bold;
-      margin-top: 20px;
       padding: 10px;
-      border: 1px solid #ccc;
+      border: 1px double #ccc;
       border-radius: 5px;
+      border-width: 10px;
+      display:inline-block;
+      ;
+      
     }
     
+
+    #agradecimento{
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #0b120b;
+      margin-top: 10px;
+      font-size: 30px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      animation: blink 1s infinite;
+
+    }
+
     
   </style>
 </head>
@@ -119,6 +139,8 @@
   <button class="button" onclick="calcularDivisao()">Calcular Divisão</button>
 
   <div id="resultado"></div>
+ 
+  <div id="agradecimento"></div>
 
   <script src="main.js"></script>
 </body>

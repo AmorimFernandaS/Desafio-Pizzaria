@@ -11,3 +11,4 @@ function calcularDivisao() {
       document.getElementById('resultado').innerHTML = 'Cada pessoa deve pagar R$ ' + valorPorPessoa.toFixed(2);
     }
   }
+  document.getElementById('agradecimento').innerHTML = 'Obrigado pela Preferência!!!';
